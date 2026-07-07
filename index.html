@@ -1,0 +1,311 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>周圣凡 | AI Product Portfolio</title>
+    <link rel="canonical" href="./" />
+    <link rel="icon" href="./favicon.ico" sizes="any" />
+    <link rel="apple-touch-icon" href="./assets/favicon.png" />
+    <meta
+      name="description"
+      content="周圣凡的 AI 产品经理实习作品集：RAG 建规助手、Multi-Agent 智能客服、AIGC 营销海报工具、城市移动情绪预测研究。"
+    />
+    <meta property="og:title" content="周圣凡 | AI Product Portfolio" />
+    <meta property="og:description" content="AI 产品经理实习作品集，展示从需求洞察、知识库建设、Agent/RAG 工作流到产品验证的实践。" />
+    <meta property="og:type" content="website" />
+    <meta property="og:image" content="./assets/link-preview.jpg" />
+    <meta property="og:image:width" content="1200" />
+    <meta property="og:image:height" content="630" />
+    <meta name="twitter:card" content="summary_large_image" />
+    <meta name="twitter:title" content="周圣凡 | AI Product Portfolio" />
+    <meta name="twitter:description" content="AI 产品经理实习作品集：RAG、Agent、AIGC 与城市情绪预测研究。" />
+    <meta name="twitter:image" content="./assets/link-preview.jpg" />
+    <link rel="stylesheet" href="./styles.css" />
+  </head>
+  <body>
+    <div class="progress" id="progress" aria-hidden="true"></div>
+
+    <header class="site-header">
+      <a class="brand" href="#top" aria-label="返回顶部">
+        <span class="brand-mark">ZS</span>
+        <span>
+          <strong>周圣凡</strong>
+          <small>AI Product Portfolio</small>
+        </span>
+      </a>
+      <nav class="site-nav" aria-label="页面导航">
+        <a href="#profile">Profile</a>
+        <a href="#projects">Projects</a>
+        <a href="#method">Method</a>
+        <a href="#contact">Contact</a>
+      </nav>
+    </header>
+
+    <main id="top">
+      <section class="hero section">
+        <div class="hero-copy reveal">
+          <p class="eyebrow">AI Product Manager Intern Candidate</p>
+          <h1>周圣凡</h1>
+          <p class="hero-lead">
+            建筑学背景的 AI 产品实践者，关注真实业务场景中的效率提升、知识检索、Agent 工作流与空间数据智能。
+          </p>
+          <div class="hero-actions">
+            <a class="button primary" href="#projects">查看作品</a>
+            <a class="button secondary" href="./assets/resume.pdf" target="_blank" rel="noreferrer">打开简历</a>
+          </div>
+          <dl class="hero-facts">
+            <div>
+              <dt>Target</dt>
+              <dd>AI 产品经理实习生</dd>
+            </div>
+            <div>
+              <dt>Availability</dt>
+              <dd>随时到岗 / 一周 4-5 天 / 3-6 个月</dd>
+            </div>
+            <div>
+              <dt>Base</dt>
+              <dd>上海杨浦 / 同济大学</dd>
+            </div>
+          </dl>
+        </div>
+
+        <div class="hero-visual reveal" aria-label="作品集视觉概览">
+          <img src="./assets/site-cover.jpg" alt="AI Product Portfolio cover" />
+          <div class="hero-index" aria-hidden="true">
+            <span>01 RAG</span>
+            <span>02 Agent</span>
+            <span>03 AIGC</span>
+            <span>04 Research</span>
+          </div>
+        </div>
+      </section>
+
+      <section class="section profile-section" id="profile">
+        <div class="section-kicker reveal">Profile</div>
+        <div class="profile-grid">
+          <div class="profile-text reveal">
+            <h2>从空间设计到 AI 产品，把复杂问题拆成可落地的产品链路。</h2>
+            <p>
+              我的项目都围绕一个共同问题展开：如何把高频、重复、专业门槛高的任务，转化为可被模型理解、可被用户验证、可持续迭代的 AI 产品。
+            </p>
+          </div>
+          <div class="metrics reveal" aria-label="核心指标">
+            <div>
+              <strong>68</strong>
+              <span>本建筑规范入库</span>
+            </div>
+            <div>
+              <strong>1600+</strong>
+              <span>条客服业务数据清洗</span>
+            </div>
+            <div>
+              <strong>90s</strong>
+              <span>完成单张营销海报</span>
+            </div>
+            <div>
+              <strong>569</strong>
+              <span>样本测试集做情绪预测</span>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section class="section project-section" id="projects">
+        <div class="section-heading reveal">
+          <p class="section-kicker">Selected Projects</p>
+          <h2>四个AI产品项目</h2>
+        </div>
+
+        <article class="project project-feature reveal">
+          <div class="project-media">
+            <img src="./assets/building-reg-1.jpg" alt="AI 智能建规助手 PRD 封面" />
+          </div>
+          <div class="project-body">
+            <p class="project-label">01 / RAG + Agent / 中国建筑西北设计研究院二院一部</p>
+            <h3>AI 智能建规助手</h3>
+            <p>
+              面向建筑师高频规范查询场景，设计「建筑规范知识库 + AI 规范助手」双模块架构，主导需求调研、数据清洗标注、RAG 策略调试、LLM 选型与原型规划。
+            </p>
+            <ul class="project-points">
+              <li>基于真实需求记录与问卷调研，验证规范查询高频痛点：49% 受访者每周查询 5-10 次，78% 认为条文查找耗时，92% 认为会影响项目进度。</li>
+              <li>收集 68 本建筑规范、约 245 万字文本，完成去重、噪声清理、章节拆分、图纸 OCR 与人工标注，建立可追溯知识库。</li>
+              <li>通过测试集评估确定 Top-K = 4、切片长度 500、相关性阈值 50% 的 RAG 检索策略。</li>
+              <li>基于阿里云百炼比较通义千问 MAX、通义千问 2.5-72B 与 Llama3.3-70B-Instruct，综合效果与成本选择 Llama3.3-70B-Instruct。</li>
+            </ul>
+            <div class="project-links">
+              <a href="./assets/building-reg-prd-clear.pdf" target="_blank" rel="noreferrer">查看 PRD</a>
+            </div>
+          </div>
+        </article>
+
+        <div class="evidence-strip reveal" aria-label="建规助手项目证据图">
+          <img src="./assets/building-reg-2.jpg" alt="需求调研问卷结果页面" />
+          <img src="./assets/building-reg-11.jpg" alt="数据收集与清洗页面" />
+          <img src="./assets/building-reg-18.jpg" alt="LLM 模型选型页面" />
+          <img src="./assets/building-reg-25.jpg" alt="产品原型说明页面" />
+        </div>
+
+        <div class="project-grid">
+          <article class="project-card reveal">
+            <img src="./assets/customer-agent-cover.jpg" alt="AI 智能客服助手多 Agent 项目封面" />
+            <div class="project-body">
+              <p class="project-label">02 / Multi-Agent / SIZE STUDIO</p>
+              <h3>AI 智能客服助手</h3>
+              <p>
+                独立设计并搭建课程咨询 Agent，覆盖课程推荐、价格咨询与日常问答，接入微信公众号完成在线运行。
+              </p>
+              <ul class="project-points">
+                <li>整理 100+ 条真实问答测试集与 1600+ 条课程业务数据。</li>
+                <li>构建意图识别、知识检索与工作流路由机制。</li>
+                <li>回答准确率 96%，知识召回准确率 98%，累计服务 300+ 人次。</li>
+              </ul>
+              <div class="project-links">
+                <a href="https://www.coze.cn/s/AAmqed20zjM/" target="_blank" rel="noreferrer">Coze 试用</a>
+                <a href="./assets/customer-agent.pdf" target="_blank" rel="noreferrer">项目说明</a>
+              </div>
+            </div>
+          </article>
+
+          <article class="project-card reveal">
+            <img src="./assets/aigc-poster-workflow.jpg" alt="AI 自动化营销海报生成工具流程图" />
+            <div class="project-body">
+              <p class="project-label">03 / AIGC Workflow / 上海沃行科技</p>
+              <h3>AI 营销海报生成工具</h3>
+              <p>
+                针对跨境物流节假日营销物料需求，基于 Coze 零代码平台设计海报生成工作流，实现节日联动、多尺寸适配与物流元素匹配。
+              </p>
+              <ul class="project-points">
+                <li>访谈 5 位销售与市场人员，定义节气/节日关联、物流元素定制、多版本生成能力。</li>
+                <li>完成 V1-V3 三轮迭代，支持朋友圈 1:1、公众号 16:9 等多种尺寸。</li>
+                <li>制作时间从 180 分钟缩短至 90 秒，节省市场部 85% 人力成本。</li>
+              </ul>
+              <div class="project-links">
+                <a href="https://www.coze.cn/store/project/7621779110825803782?from=project_card&bid=6jhgvp4u4801v" target="_blank" rel="noreferrer">Coze 试用</a>
+              </div>
+            </div>
+            <video class="project-video" src="./assets/aigc-demo-compressed.mp4" controls preload="metadata"></video>
+          </article>
+        </div>
+
+        <article class="project research-project reveal">
+          <div class="project-media">
+            <img src="./assets/emotion-urban-3.jpg" alt="城市移动情绪研究流程页面" />
+          </div>
+          <div class="project-body">
+            <p class="project-label">04 / LLM + Urban Research / Tongji</p>
+            <h3>感知空间：大型语言模型在城市移动中的情感反应研究</h3>
+            <p>
+              研究 Personal Distance 对人在城市街道行走时情绪变化的影响，整合 EEG、GPS、街景视频、空间指标 CSV 与推理模型，尝试在 Rhino 场景中预测真实环境情绪反应。
+            </p>
+            <div class="research-list">
+              <div>
+                <strong>情绪要素</strong>
+                <span>4 组行走 EEG 数据，分类为 Anger、Fear、Happiness、Neutral、Sadness。</span>
+              </div>
+              <div>
+                <strong>空间要素</strong>
+                <span>Personal Distance、可见行人数量、行人像素比、建筑像素比、天空可视率、绿视率、人行道宽度等。</span>
+              </div>
+              <div>
+                <strong>关系建模</strong>
+                <span>通过 Random Forest、SHAP 与 Partial Dependence 分析空间指标对情绪预测的贡献度。</span>
+              </div>
+            </div>
+            <div class="project-links">
+              <a href="./assets/emotion-urban-deck-small.pdf" target="_blank" rel="noreferrer">查看研究 Deck</a>
+            </div>
+          </div>
+        </article>
+
+        <div class="evidence-strip reveal" aria-label="城市情绪研究证据图">
+          <img src="./assets/emotion-urban-2.jpg" alt="研究路线和观察节点" />
+          <img src="./assets/emotion-urban-7.jpg" alt="人群密度和 Personal Distance 分析" />
+          <img src="./assets/emotion-urban-14.jpg" alt="SHAP 特征贡献分析" />
+          <img src="./assets/emotion-urban-18.jpg" alt="情绪预测可视化流程" />
+        </div>
+        <video class="wide-video reveal" src="./assets/emotion-urban-demo-compressed.mp4" controls preload="metadata"></video>
+      </section>
+
+      <section class="section method-section" id="method">
+        <div class="section-heading reveal">
+          <p class="section-kicker">Method</p>
+          <h2>我在 AI 产品项目中的工作方式</h2>
+        </div>
+        <div class="method-grid">
+          <div class="method-item reveal">
+            <span>01</span>
+            <h3>定义真实问题</h3>
+            <p>从访谈、问卷和真实业务记录出发，区分“用户想要什么”和“产品必须解决什么”。</p>
+          </div>
+          <div class="method-item reveal">
+            <span>02</span>
+            <h3>整理模型可用数据</h3>
+            <p>将文本、图纸、历史问答、街景视频与空间指标转化为可检索、可标注、可评估的数据资产。</p>
+          </div>
+          <div class="method-item reveal">
+            <span>03</span>
+            <h3>设计 AI 工作流</h3>
+            <p>围绕意图识别、知识召回、Prompt 约束、重排序、生成结果与反馈入口搭建闭环。</p>
+          </div>
+          <div class="method-item reveal">
+            <span>04</span>
+            <h3>用指标推动迭代</h3>
+            <p>用准确率、召回率、响应时间、人工节省、用户满意度与 Badcase 分析决定下一步优化。</p>
+          </div>
+        </div>
+      </section>
+
+      <section class="section contact-section" id="contact">
+        <div class="contact-copy reveal">
+          <p class="section-kicker">Contact</p>
+          <h2>期待加入 AI 产品团队，把从 0 到 1 的实践继续做深。</h2>
+          <p>电话：15079902633<br />邮箱：15079902633@163.com<br />求职意向：AI 产品经理实习生</p>
+          <div class="contact-actions">
+            <a class="button secondary" href="./assets/resume.pdf" target="_blank" rel="noreferrer">下载简历 PDF</a>
+          </div>
+        </div>
+        <form class="ticket-form reveal" action="https://formsubmit.co/15079902633@163.com" method="POST">
+          <input type="hidden" name="_subject" value="作品集网站需求工单" />
+          <input type="hidden" name="_template" value="table" />
+          <input type="hidden" name="_captcha" value="false" />
+          <input type="text" name="_honey" class="form-honey" tabindex="-1" autocomplete="off" />
+
+          <div class="form-head">
+            <p class="section-kicker">FormSubmit Ticket</p>
+            <h3>需求工单分配</h3>
+          </div>
+          <label>
+            <span>姓名 / 公司</span>
+            <input type="text" name="姓名或公司" placeholder="请输入姓名、公司或团队" required />
+          </label>
+          <label>
+            <span>联系邮箱</span>
+            <input type="email" name="email" placeholder="name@example.com" required />
+          </label>
+          <label>
+            <span>需求类型</span>
+            <select name="需求类型" required>
+              <option value="">请选择</option>
+              <option value="AI产品实习沟通">AI产品实习沟通</option>
+              <option value="项目合作">项目合作</option>
+              <option value="作品集反馈">作品集反馈</option>
+            </select>
+          </label>
+          <label>
+            <span>需求说明</span>
+            <textarea name="需求说明" rows="5" placeholder="可以写岗位信息、合作背景、沟通时间或其他需求。" required></textarea>
+          </label>
+          <button class="button primary" type="submit">提交工单</button>
+        </form>
+      </section>
+    </main>
+
+    <footer class="site-footer">
+      <span>© 2026 周圣凡</span>
+      <span>AI Product Portfolio</span>
+    </footer>
+
+    <script src="./script.js"></script>
+  </body>
+</html>
