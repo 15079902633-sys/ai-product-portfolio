@@ -2,7 +2,7 @@
 
 个人 AI 产品作品集静态网站，可直接部署到 GitHub Pages。
 
-线上地址：https://15079902633-sys.github.io/ai-product-portfolio/
+作品集链接：https://15079902633-sys.github.io/ai-product-portfolio/
 
 ![网站预览](./assets/website-preview.png)
 
