@@ -2,6 +2,8 @@
 
 个人 AI 产品作品集静态网站，可直接部署到 GitHub Pages。
 
+线上地址：https://15079902633-sys.github.io/ai-product-portfolio/
+
 ![网站预览](./assets/website-preview.png)
 
 ## 部署方式
@@ -23,4 +25,4 @@
 
 网站已配置 `favicon.ico`、`assets/favicon.png` 和 `assets/link-preview.jpg`，用于浏览器标签页图标和社交/聊天链接卡片预览。
 
-正式 GitHub Pages 地址生成后，可以把 `index.html` 中的 `canonical` 和 `og:url` 更新为最终 URL。
+当前已将 `index.html` 中的 `canonical`、`og:url`、`og:image` 和 `twitter:image` 更新为正式 GitHub Pages 地址。
