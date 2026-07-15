@@ -4,6 +4,8 @@
 
 作品集链接：https://15079902633-sys.github.io/ai-product-portfolio/
 
+无 VPN 备用访问链接：https://rawcdn.githack.com/15079902633-sys/ai-product-portfolio/main/index.html
+
 ![网站预览](./assets/website-preview.png)
 
 ## 部署方式
