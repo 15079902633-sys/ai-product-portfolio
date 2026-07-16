@@ -2,6 +2,13 @@
 
 个人 AI 产品作品集静态网站，可直接部署到 GitHub Pages。
 
+当前作品集架构：
+
+1. 前期行业调研与竞品分析
+2. KnowNest 个人知识库的 vibe coding demo 能力
+3. 产品 0-1 落地：AI 智能建规助手、AI 智能客服助手、AI 营销海报生成工具
+4. 基于 AI 的空间智能研究
+
 作品集链接：https://15079902633-sys.github.io/ai-product-portfolio/
 
 无 VPN 备用访问链接：https://rawcdn.githack.com/15079902633-sys/ai-product-portfolio/main/index.html
